@@ -20,10 +20,10 @@
         }
     },
     "extra": {
-+        "laravel": {
-+            "providers": [
-+                "EelcoLuurtsema\\LaravelPackageCreate\\ServiceProvider"
-+            ]
+        "laravel": {
+            "providers": [
+                "EelcoLuurtsema\\LaravelPackageCreate\\ServiceProvider"
+            ]
          }
      }
 }
