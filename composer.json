@@ -1,5 +1,5 @@
 {
-    "name": "eelco_luurtsema/laravel_package_create",
+    "name": "eelcol/laravel_package_create",
     "description": "Adds make:package command to Laravel Artisan",
     "type": "project",
     "license": "MIT",
