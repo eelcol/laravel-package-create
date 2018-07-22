@@ -3,11 +3,7 @@ Please post here your readme file.
 - Add the following to the core's composer.json:
 
 "autoload": {
-        "classmap": [
-            ...
-        ],
         "psr-4": {
-            ...
             "#NAMESPACE1#\\#NAMESPACE2#\\": "packages/#TOPLEVELFOLDER#/#SUBLEVELFOLDER#/src/"
         }
     },
