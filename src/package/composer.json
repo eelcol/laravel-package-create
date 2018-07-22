@@ -1,0 +1,31 @@
+{
+    "name": "#TOPLEVELFOLDER#/#SUBLEVELFOLDER#",
+    "description": "Description",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Author",
+            "email": "Emailaddress"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+    },
+    "autoload": {
+        "psr-4": {
+            "#NAMESPACE1#\\#NAMESPACE2#\\": "src/" 
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "extra": {
++        "laravel": {
++            "providers": [
++                "#NAMESPACE1#\\#NAMESPACE2#\\ServiceProvider"
++            ],
+         }
+     }
+}

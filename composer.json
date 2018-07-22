@@ -1,0 +1,29 @@
+{
+    "name": "eelco_luurtsema/laravel_package_create",
+    "description": "Adds make:package command to Laravel Artisan",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eelco Luurtsema",
+            "email": "mail@eelcoluurtsema.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0",
+        "laravel": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EelcoLuurtsema\\LaravelPackageCreate\\": "src/" 
+        }
+    },
+    "extra": {
++        "laravel": {
++            "providers": [
++                "EelcoLuurtsema\\LaravelPackageCreate\\ServiceProvider"
++            ]
+         }
+     }
+}
