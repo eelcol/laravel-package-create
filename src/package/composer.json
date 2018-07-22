@@ -22,10 +22,10 @@
         ]
     },
     "extra": {
-+        "laravel": {
-+            "providers": [
-+                "#NAMESPACE1#\\#NAMESPACE2#\\ServiceProvider"
-+            ],
+        "laravel": {
+            "providers": [
+                "#NAMESPACE1#\\#NAMESPACE2#\\ServiceProvider"
+            ],
          }
      }
 }
