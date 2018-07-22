@@ -135,7 +135,7 @@ class MakePackage extends Command
         /**
         * Create output
         */
-        $this->info("Now please change ServiceProvider.php, composer.json and readme.md. Then run composer update in that directory.");
+        $this->info("Now please change ServiceProvider.php, composer.json and readme.md.");
     }
 
 }
